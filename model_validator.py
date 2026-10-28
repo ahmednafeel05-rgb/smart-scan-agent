@@ -24,6 +24,7 @@ def update_patient_data(patient: Patient):
     print(patient.age)
     print(patient.allergies)
     print(patient.married)
+    print(patient.email)
     print('updated')
 
 patient_info = {'name':'nitish', 'email':'abc@icici.com', 'age': '80', 
